@@ -3,13 +3,16 @@ body {
     padding: 0;
 
     font-family: Raleway, sans-serif;
+    margin-inline: auto;
+    background-color: white;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 20px 70px;
+    margin-inline: auto;
 }
 .img-logo {
     width: 5rem;
@@ -37,8 +40,8 @@ a:hover{
     display: flex;
     margin-top: 2rem;
     justify-content: center;
-    padding: 0 50px;
-    
+    padding: 0 70px;
+    margin-inline: auto;
 }
 
 .left-hero-section {
@@ -87,4 +90,40 @@ flex: 1;
 .bottom-part-hero {
     display: flex;
     gap: 1rem;
+}
+
+.img-illustration-2-sectwo{
+    width: 40rem;
+}
+
+.section-two-container{
+    display: flex;
+    padding: 20px 70px;
+    gap: 1rem;
+    padding-top: 4rem;
+    margin-top: 8rem;
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background:cover;
+    background-position: center;
+    justify-content: space-between;
+
+}
+
+
+.div-left-sectwo{
+    margin-top: 5rem;
+}
+
+.div-testimony-container{
+    background-color: white;
+    width: 33ch;
+    padding: 25px;
+    border-radius: .5rem;
+}
+
+.p-testimony{
+    margin: 0;
+    line-height: 1.5em;
 }
