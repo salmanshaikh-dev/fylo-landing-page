@@ -124,6 +124,7 @@
         justify-content: start;
         gap: 4rem;
     }
+
     .img-logo-footer{
         width: 7rem;
     }
@@ -136,4 +137,5 @@
     .four{
         padding-left: 1rem;
     }
+
 }
