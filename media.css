@@ -1,2 +1,129 @@
-@media screen and (max-width:375px) {
+@media screen and (max-width:420px) {
+    :root{
+        --padding: 10px 20px;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    nav {
+        display: flex;
+        padding: var(--padding);
+        
+    }
+
+    .div-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .img-logo{
+        width: 5rem;
+    }
+    .ul-nav{
+        font-size: .8em;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: var(--padding);
+        justify-content: center;
+    }
+    .left-hero-section{
+        padding-top: 30px;
+    }
+    .p-left-hero {
+        width: 34ch;
+        text-align: center;
+    }
+
+    h1 {
+        width: 21ch;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .img-illustration-1-hero {
+        width: 20rem;
+    }
+
+    .bottom-part-hero{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .section-two-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: var(--padding);
+        padding-bottom: 60px;
+    }
+    .img-illustration-2-sectwo {
+        width: 20rem;
+    }
+
+    .input-hero{
+        min-width: 18rem;
+        padding: 10px 20px;
+    }
+    .btn-hero{
+        
+        max-width: 21rem;
+        padding: 10px 10px;
+    }
+
+    .h1-secTwo{
+        font-size: 1.2em;
+        width: 27ch;
+        text-align: center;
+    }
+    .p-left-hero{
+        text-align: center;
+        font-size: .9em;
+    }
+    .div-left-sectwo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .section-three-container {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .p-secThree{
+        width: 30ch;
+
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+
+    .input-secThree{
+        max-width: 4rem;
+    }
+    .btn-secThree{
+        min-width: 20.5rem;
+    }
+   
+
+    .div-footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+}
+    .img-logo-footer{
+        width: 7rem;
+    }
 }
