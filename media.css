@@ -122,8 +122,9 @@
         flex-direction: column;
         align-items: start;
         justify-content: start;
-        gap: 5rem;
+        gap: 4rem;
     }
+
     .img-logo-footer{
         width: 7rem;
     }
@@ -136,4 +137,5 @@
     .four{
         padding-left: 1rem;
     }
+
 }
